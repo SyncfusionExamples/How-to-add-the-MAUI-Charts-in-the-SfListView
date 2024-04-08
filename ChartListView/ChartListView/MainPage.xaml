@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
+             xmlns:local="clr-namespace:ChartListView"
+             xmlns:list="clr-namespace:Syncfusion.Maui.ListView;assembly=Syncfusion.Maui.ListView"
+             x:Class="ChartListView.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:ViewModel x:Name="ViewModel"></local:ViewModel>
+    </ContentPage.BindingContext>
+
+    <list:SfListView x:Name="sfListView" ItemsSource="{Binding SeriesItems}" ItemSize="210" >
+        <list:SfListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <chart:SfCartesianChart  x:Name="chart"  Series="{Binding Series}">
+                        <chart:SfCartesianChart.Title>
+                            <Label Text="{Binding ChartTitle}" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+                        </chart:SfCartesianChart.Title>
+                        <chart:SfCartesianChart.XAxes>
+                            <chart:CategoryAxis></chart:CategoryAxis>
+                        </chart:SfCartesianChart.XAxes>
+                        <chart:SfCartesianChart.YAxes>
+                            <chart:NumericalAxis></chart:NumericalAxis>
+                        </chart:SfCartesianChart.YAxes>
+                    </chart:SfCartesianChart>
+                </ViewCell>
+            </DataTemplate>
+        </list:SfListView.ItemTemplate>
+    </list:SfListView>
+</ContentPage>
+

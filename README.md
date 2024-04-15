@@ -1,4 +1,4 @@
-# How-to-add-the-MAUI-Charts-in-the-ListView
+# How to add the MAUI Charts in the ListView
 
 This sample demostrate how to add the chart control in the ListView control.
 

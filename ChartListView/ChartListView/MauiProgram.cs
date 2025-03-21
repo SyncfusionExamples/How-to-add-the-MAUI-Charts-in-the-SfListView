@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using Syncfusion.Maui.Core.Hosting;
+using Syncfusion.Maui.Toolkit.Hosting;
 
 namespace ChartListView
 {
@@ -9,7 +10,9 @@ namespace ChartListView
         {
             var builder = MauiApp.CreateBuilder();
             builder
-                .UseMauiApp<App>()
+
+                .UseMauiApp<App>() 
+                .ConfigureSyncfusionToolkit()
                 .ConfigureSyncfusionCore()
                 .ConfigureFonts(fonts =>
                 {

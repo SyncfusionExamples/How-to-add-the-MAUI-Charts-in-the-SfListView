@@ -1,6 +1,6 @@
-# How to add the MAUI Charts in the ListView
+# How to add the MAUI Toolkit Charts in the ListView
 
-This sample demonstrates how to add the chart control in the ListView control.
+This sample demonstrates how to add the toolkit chart control in the ListView control.
 
 **Syncfusion Chart Control**
 
@@ -16,7 +16,7 @@ The [.NET MAUI Charts](https://www.syncfusion.com/maui-controls/maui-cartesian-c
 
 ![image.png](https://support.syncfusion.com/kb/agent/attachment/article/15556/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIxMjgxIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.aDD8VNDojMi7_a7eFua9-ta6Mpjduyrnm6o0D0y6K9c)
 
-For a step by step procedure, refer to the Knowledge base : [How to add the .NET MAUI Charts in a SfListView?]()
+For a step by step procedure, refer to the Knowledge base : [How to add the .NET MAUI Toolkit Charts in a SfListView?]()
 
 ## Troubleshooting
 
